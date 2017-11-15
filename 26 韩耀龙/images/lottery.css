@@ -1,0 +1,80 @@
+.shadow{background:url(/cms/jtym/lottery/image/black50.png);position:fixed;width:100%;height:100%;left:0;top:0;z-index:10;display:none;}
+
+.lottery{width:1204px;background:url(/cms/jtym/lottery/image/bg_lottery.png) center top no-repeat;height:1000px;position:absolute;left:50%;top:20px;margin:0 0 0 -602px;z-index:13;display:none;}
+.lottery .close{background:url(/cms/jtym/lottery/image/close.png) center center no-repeat;width:65px;height:65px; position:absolute;right:10px;top:110px;}
+.lottery .main{width:943px;margin:255px auto 0;height:487px;position:relative;}
+.lottery .main .d{position:absolute;width:235px;height:162px;}
+.lottery .main .d .a{position:absolute;left:0;top:0;width:100%;height:100%;background:url(/cms/jtym/lottery/image/bg_y.png);display:none;}
+.lottery .main .d .b{position:absolute;left:0;top:0;width:100%;height:100%;text-align:center;}
+.lottery .main .d .b:after{content:"";height:100%;display:inline-block;vertical-align:middle;}
+.lottery .main .d1{left:0;top:0;}
+.lottery .main .d2{left:25%;top:0;margin:0 0 0 0;}
+.lottery .main .d3{left:50%;top:0;margin:0 0 0 0;}
+.lottery .main .d4{left:75%;top:0;margin:0 0 0 1px;}
+.lottery .main .d5{left:75%;top:162px;margin:1px 0 0 1px;height:161px;}
+.lottery .main .d6{left:75%;top:324px;margin:1px 0 0 1px;}
+.lottery .main .d7{left:50%;top:324px;margin:1px 0 0 0;}
+.lottery .main .d8{left:25%;top:324px;margin:1px 0 0 0;}
+.lottery .main .d9{left:0%;top:324px;margin:1px 0 0 0;}
+.lottery .main .d10{left:0%;top:162px;margin:1px 0 0 0;height:161px;}
+.lottery .main .d1 .p{position:absolute;left:-50%;top:-20%;z-index:2;}
+.lottery .main .d6 .p{position:absolute;left:20%;top:-10%;z-index:2;}
+.lottery .btn1{background:url(/cms/jtym/lottery/image/btn1.png) center center no-repeat;position:absolute;left:25%;top:162px;margin:1px 0 0 1px;width:473px;height:162px;cursor:pointer;}
+.lottery .btn1:hover{opacity:0.9;}
+.lottery .btn1.disable{opacity:0.2;filter:alpha(opacity='20');}
+.lottery .btn2{background:url(/cms/jtym/lottery/image/btn2.png) center center no-repeat;width:207px;height:62px;margin:50px auto 0;display:block;}
+
+.layer1{background:url(/cms/jtym/lottery/image/rs1.png) center top no-repeat;width:451px;height:550px;position:fixed;left:50%;top:50%;margin:-275px 0 0 -225px;z-index:15;display:none;}
+.layer1 .close{position:absolute;right:10px;top:10px;width:55px;height:55px;}
+.layer1 h1{font-size:30px;color:#bd2328;text-align:center;margin-top:100px;font-weight:bold;}
+.layer1 .pic{width:80%;margin:50px auto 0;text-align:center;}
+.layer1 .pic img{max-width:100%;height:auto;}
+.layer1 .pic h3{font-size:22px;}
+.layer1 .btn{background:url(/cms/jtym/lottery/image/btn3.png) center center no-repeat;width:266px;height:69px;line-height:60px;font-size:30px;font-weight:bold;color:#fff;display:block;margin: 25px auto 0;text-align:center;}
+
+.layer2{background:url(/cms/jtym/lottery/image/rs2.png) center top no-repeat;width:451px;height:450px;position:fixed;left:50%;top:50%;margin:-225px 0 0 -225px;z-index:15;display:none;}
+.layer2 .close{position:absolute;right:10px;top:10px;width:55px;height:55px;}
+.layer2 h1{ color: #bd2328;font-size: 30px;font-weight: bold;margin-top: 104px;text-align: center;line-height: initial;padding: 0 40px;}
+.layer2 .btn{background:url(/cms/jtym/lottery/image/btn3.png) center center no-repeat;width:266px;height:69px;line-height:60px;font-size:30px;font-weight:bold;color:#fff;display:block;margin:120px auto 0;text-align:center;}
+
+.rule2{display:none;}
+
+@media screen and (max-width:640px){
+.lottery{width:283px;background:url(/cms/jtym/lottery/image/bg_lottery1.png) center top no-repeat;height:400px;position:absolute;left:50%;top:20px;margin:0 0 0 -141px;z-index:13;display:none;background-size:100% auto;display:block;}
+.lottery .close{width:30px;height:30px;position:absolute;right:0;top:60px;background-size:contain;}
+.lottery .main{width:275px;height:206px;margin-top:120px;}
+.lottery .main .d{width:68px;height:68px;line-height:68px;}
+.lottery .main .d img{max-width:80%;max-height:80%;}
+
+.lottery .main .d1 .p{position:absolute;left:-20%;top:-10%;z-index:2;max-width:none;max-height:none;width:130%;}
+.lottery .main .d6 .p{position:absolute;left:0%;top:10%;z-index:2;max-width:none;max-height:none;width:120%;}
+
+.lottery .main .d1{left:0;top:0;}
+.lottery .main .d2{left:25%;top:0;margin:0 0 0 0;}
+.lottery .main .d3{left:50%;top:0;margin:0 0 0 0;}
+.lottery .main .d4{left:75%;top:0;margin:0 0 0 1px;}
+.lottery .main .d5{left:75%;top:68px;margin:1px 0 0 1px;height:68px;}
+.lottery .main .d6{left:75%;top:137px;margin:1px 0 0 1px;}
+.lottery .main .d7{left:50%;top:137px;margin:1px 0 0 0;}
+.lottery .main .d8{left:25%;top:137px;margin:1px 0 0 0;}
+.lottery .main .d9{left:0%;top:137px;margin:1px 0 0 0;}
+.lottery .main .d10{left:0%;top:68px;margin:1px 0 0 0;height:68px;}
+
+.lottery .btn1{width:137px;height:68px;top:68px;background:url(/cms/jtym/lottery/image/btn1a.png) center center no-repeat;background-size:90% auto;}
+.lottery .btn2{width:130px;height:41px;background-size:contain;margin-top:50px;}
+
+.layer1{width:290px;height:353px;background-size:contain;margin:-176px 0 0 -145px;}
+.layer1 h1{margin-top:50px;font-size:20px;}
+.layer1 .pic{margin-top:30px;}
+.layer1 .pic h3{margin:0;font-size:14px;}
+.layer1 .btn{width:150px;height:40px;line-height:36px;background-size:contain;margin-top:30px;font-size:16px;}
+
+.layer2{width:290px;height:353px;background-size:contain;margin:-176px 0 0 -145px;}
+.layer2 h1{margin-top:100px;font-size:20px;}
+.layer2 .btn{width:150px;height:40px;line-height:36px;background-size:contain;margin-top:80px;font-size:16px;}
+
+
+.rule2{position:absolute;left:0;top:0;width:100%;display:none;z-index:15;}
+.rule2 .close{position:absolute;right:10px;top:10px;width:45px;height:45px;}
+.rule2 img{width:100%;height:auto;}
+}

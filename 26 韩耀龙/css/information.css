@@ -1,0 +1,159 @@
+#box {
+	width: 1600px;
+	
+	background: #fff;
+	margin: 0 auto;
+}
+
+
+/*这里是头的顶部*/
+#header #header-top {
+
+	height: 93px;
+	width: 100%;
+	background: #b61f24;
+	position: relative;
+}
+/*这里是longe*/
+#header #header-top #logo {
+	cursor: pointer;
+	width: 97px;
+	height: 93px;
+	background: url(../images/logo.png) no-repeat center;
+	border:2px solid #fff;
+	border-width: 0 2px;
+	position: absolute;
+	left: 198px;
+	top: 0;
+}
+/*这里是查找*/
+#header #header-top #search {
+	width: 466px;
+	height: 51px;
+	position:absolute;
+	top:20px;
+	left: 543px;
+	background:  #b61f24;
+}
+#header #header-top #search .tab {
+	height: 22px;
+	width: 100%
+}
+#header #header-top #search .tab span{
+	float:left;
+	display: inline-block;
+	width: 28px;
+	height: 22px;
+	padding: 0 15px;
+	font-size: 13px;
+	color: #fff;
+	line-height: 22px;
+	text-align: center;
+	cursor: pointer;
+}
+#header #header-top #search .tab span.active {
+	background: #9b0004;
+}
+#header #header-top #search .form {
+	height: 23px;
+	width: 100%-6px;
+	border: 3px solid #9b0004;
+	
+	position: relative;
+	background: #9b0004;
+
+}
+#header #header-top #search .form .kw {
+	height: 23px;
+	width: 310px;
+	font-size: 12px;
+	color: #a9a9a9;
+	float:right;
+	background: #e8e8e8;
+	outline: none;
+	border: none;
+}
+#header #header-top #search .form .ok {
+	height: 23px;
+	width: 114px;
+	background: #9b0004;
+	display: inline-block;
+	color:#fff;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+	cursor: pointer;
+	float: right;
+
+}
+#header #header-top #search .form .cha {
+	width: 35px;
+	height: 25px;
+	position: absolute;
+	left: 1px;
+	top: 0px;
+	background: #e8e8e8;
+	text-decoration: bottom;
+	
+}
+#header #header-top #search .form .cha img {
+	position: absolute;
+	right: 9px;
+	top:2px;
+}
+
+/*这里是注册*/
+#header #header-top #zhuce {
+  width: 296px;
+  height: 28px;
+  position: absolute;
+  right: 200px;
+  bottom: 20px;        
+}
+#header #header-top #zhuce a{
+    font-size: 12px;
+    color: #fff;
+    float: left;
+    margin-right:20px;  
+    text-decoration:none;     
+}
+#bodyy {
+	background:url(../images/regist_bg.jpg) no-repeat center;
+	width: 1600px;
+	height: 726px;
+	position: relative;
+}
+#bodyy #dd {
+	width: 1220px;
+	height: 460px;
+	background: rgba(0,0,0,0.4);
+	position: absolute;
+	left: 190px;
+	top: 60px;
+}
+#bodyy #dd h1 {
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+	padding-top: 48px;
+	text-align: center;
+	
+}
+#bodyy #dd h1 span{
+    font-size: 30px;
+
+}
+#bodyy table {
+	width: 822px;
+	height: 98px;
+	/*background: red;*/
+	margin: 0 auto;
+	
+	margin-top:30px;
+}
+#bodyy table tr {
+	width: 822px;
+	height: 49px;
+	background: green;
+}
